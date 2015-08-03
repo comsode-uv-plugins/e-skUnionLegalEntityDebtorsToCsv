@@ -1,47 +1,15 @@
-# E-UnionPODlznici #
+E-skUnionLegalEntityDebtorsToCsv
 ----------
 
-###General###
+### Documentation ###
 
-|                              |                                                               |
-|------------------------------|---------------------------------------------------------------|
-|**Name:**                     |E-UnionPODlznici                                              |
-|**Description:**              |Grab Union commercial debtors. |
-|**Status:**                   |       |
-|                              |                                                               |
-|**DPU class name:**           |UnionPODlznici     | 
-|**Configuration class name:** |UnionPODlzniciConfig_V1                           |
-|**Dialogue class name:**      |UnionPODlzniciVaadinDialog | 
+* see [Plugin Documentation](./doc/About.md)
+* see [Plugin Documentation](./doc/About_sk.md) (in Slovak)
 
-***
+### Developer's note ###
 
-###Configuration parameters###
-
-
-|Parameter                        |Description                             |                                                        
-|---------------------------------|----------------------------------------|
-
-***
-
-### Inputs and outputs ###
-
-|Name                |Type       |DataUnit                         |Description                        |
-|--------------------|-----------|---------------------------------|-----------------------------------|
-|input |i |FilesDataUnit  |One file containing list of entity IDs |
-|output|o |FilesDataUnit |One CSV containing details for each debtor ID on one row. | 
-
-***
+* unable to use while source PDF file structure released by Union changes month per month
 
 ### Version history ###
 
-|Version            |Release notes                                   |
-|-------------------|------------------------------------------------|
-|1.0.0-SNAPSHOT              | Initial release |
-
-***
-
-### Developer's notes ###
-
-|Author            |Notes                 |
-|------------------|----------------------|
-
+* see [Changelog](./CHANGELOG.md)
